@@ -49,6 +49,13 @@ hr {
   margin: 100px auto;
 }
 
+.vanta-birds {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  
+}
+
 .portfo {
   font-weight: normal;
   font-size: 2.5rem;
