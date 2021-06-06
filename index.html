@@ -23,31 +23,35 @@
     </style> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+      VANTA.BIRDS("#vanta-birds");
+    </script>
     
     <div class="top-container">
       <div id="vanta-birds">
-    <script>
-    VANTA.BIRDS({
-      el: “#vanta-birds”,
-      mouseControls: true,
-      touchControls: true,
-      gyroControls: false,
-      minHeight: 200.00,
-      minWidth: 200.00,
-      scale: 1.00,
-      scaleMobile: 1.00,
-      birdSize: 1.50,
-      speedLimit: 4.00,
-      separation: 16.00,
-      alignment: 21.00,
-      quantity: 3.00
-    })
-    VANTA.BIRDS("#vantajs");
-    $(document).ready(function(){
-    hljs.initHighlightingOnLoad();
-    });
-    </script>
-    </div>
+        <script>
+          $(document).ready(function(){
+          hljs.initHighlightingOnLoad();
+          });
+        </script>
+        <script>
+        VANTA.BIRDS({
+          el: “#vanta-birds”,
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.00,
+          minWidth: 200.00,
+          scale: 1.00,
+          scaleMobile: 1.00,
+          birdSize: 1.50,
+          speedLimit: 4.00,
+          separation: 16.00,
+          alignment: 21.00,
+          quantity: 3.00
+        })
+        </script>
+      </div>
       <!--
       <img class="top-cloud" src="images/cloud.png" alt="cloud-img"> -->
       <h1>I'm Hannah</h1> 
