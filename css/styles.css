@@ -56,6 +56,13 @@ hr {
 
 }
 
+#vanta-birds {
+ width: auto; 
+ height: 600px; 
+ margin-bottom: 10px;
+
+}
+
 .portfo {
   font-weight: normal;
   font-size: 2.5rem;
