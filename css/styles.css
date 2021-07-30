@@ -94,6 +94,9 @@ nav {
   .burger {
     display: block;
   }
+  .vanta-birds {
+    display: none;
+  }
 }
 
 .nav-active {
