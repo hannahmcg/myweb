@@ -94,9 +94,15 @@ nav {
   .burger {
     display: block;
   }
-  .vanta-birds {
+
+  .vanta-birds .birds {
     display: none;
   }
+
+  /*
+   .vanta-birds .title-under-vanta {
+    display: block;
+  } */
 }
 
 .nav-active {
