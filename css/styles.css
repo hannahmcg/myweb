@@ -75,7 +75,7 @@ nav {
 
 @media screen and (max-width: 768px){
   body{
-    /*overflow: hidden;*/
+    overflow: hidden;
   }
   .nav-links {
   position: absolute;
@@ -401,6 +401,10 @@ hr {
 
 .contain-port-img {
   padding-bottom: 10%;
+}
+
+.back-portfolio {
+  color: #3d7ea6;
 }
 
 /* OTHER.HTML */
