@@ -413,6 +413,49 @@ hr {
   color: #3d7ea6;
 }
 
+/* PORTFOLIO EXPRESSIO */
+
+.expresso-mid {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.expresso-mid .row1 {
+  flex-direction: column;
+  height: 30%;
+  width: 30%;
+}
+
+.expresso-mid .row2 {
+  flex-direction: column;
+  height: 30%;
+  width: 30%;
+
+}
+
+
+.expresso-mid-row {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-bottom: 100px;
+}
+
+.expresso-mid-row .row3 {
+  flex-direction: column;
+  height: 30%;
+  width: 30%;
+
+}
+.expresso-mid-row .row4 {
+  flex-direction: column;
+  height: 30%;
+  width: 30%;
+
+
+
 /* OTHER.HTML */
 
 
