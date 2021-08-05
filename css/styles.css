@@ -454,6 +454,18 @@ hr {
   height: 30%;
   width: 30%;
 
+}
+
+  .construction-img {
+
+    position: relative;
+    height: 60%;
+    width: 60%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+
+  }
+
 
 
 /* OTHER.HTML */
