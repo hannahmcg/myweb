@@ -7,7 +7,7 @@ body {
   height: 100%;
   box-sizing: border-box;
   text-align: center;
-  font-family: 'Merriweather', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* START NAV */
@@ -146,7 +146,7 @@ nav {
 h1 {
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
-  font-family: 'Sacramento', cursive;
+  font-family: 'Bowlby One', cursive;
   color: #3d7ea6;
 }
 
@@ -413,7 +413,7 @@ hr {
   color: #3d7ea6;
 }
 
-/* PORTFOLIO EXPRESSIO */
+/* PORTFOLIO EXPRESSO */
 
 .expresso-mid {
   margin-top: 20px;
