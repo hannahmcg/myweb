@@ -482,18 +482,20 @@ hr {
   justify-content: space-around;
   flex-direction: row;
   flex-flow: wrap;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
 .expresso-mid .row1 {
   flex-direction: column;
-  height: 30%;
-  width: 30%;
+  height: 40%;
+  width: 40%;
 }
 
 .expresso-mid .row2 {
   flex-direction: column;
-  height: 30%;
-  width: 30%;
+  height: 40%;
+  width: 40%;
 
 }
 
