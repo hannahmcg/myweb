@@ -185,6 +185,11 @@ hr {
   margin: 100px auto;
 }
 
+.wrap {
+  padding-bottom: 100px;
+
+}
+
 .vanta-birds {
   overflow: hidden;
   width: 100%;
@@ -273,12 +278,14 @@ hr {
 }
 
 .bottom-container {
-  position: absolute;
+  /*position: absolute;*/
   bottom: 0;
   width: 100%;
-  height: 100px;
+  height: auto;
   background-color: #3d7ea6;
-  padding-top: 40px;
+  padding-top: 6%;
+  padding-bottom: 2%;
+
 }
 
 
@@ -465,6 +472,34 @@ hr {
     margin-bottom: 10%;
 
   }
+
+.minihead {
+  font-weight: bold;
+}
+
+/*ADOBE XD*/
+
+.xd-wrap {
+  margin-top: 4%;
+}
+
+.xd-blurb {
+  margin-left: 14%;
+  margin-right: 14%;
+
+}
+
+.airximg {
+height: 18%;
+width: 18%;
+}
+
+.moviewatchimg {
+  height: 32%;
+  width: 32%;
+}
+
+
 
 
 
