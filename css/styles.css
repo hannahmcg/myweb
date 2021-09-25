@@ -220,7 +220,7 @@ h2 {
   font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
   color: #3d7ea6;
-  padding-bottom: 10px;
+  /*padding-bottom: 10px;*/
 }
 
 h3 {
@@ -247,13 +247,9 @@ hr {
   border: dotted #ffa5a5 6px;
   border-bottom: none;
   width: 4%;
-  margin: 100px auto;
+  margin: 4% auto;
 }
 
-.wrap {
-  padding-bottom: 100px;
-
-}
 
 .vanta-birds {
   overflow: hidden;
@@ -289,9 +285,11 @@ hr {
   text-decoration: underline;
 }
 
+
+
 .skill-row {
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: 0 auto;
   text-align: left;
 }
 
@@ -339,7 +337,7 @@ hr {
 }
 
 .wrap {
-  padding-bottom: 100px;
+  padding-bottom: 4%%;
 }
 
 .bottom-container {
@@ -361,9 +359,9 @@ hr {
   margin: auto;
 }
 
-.contact-message {
+.contact-me {
   width: 40%;
-  margin: 40px auto 60px;
+  margin: 4% auto;
 }
 
 .copyright {
