@@ -71,6 +71,8 @@ nav {
   .nav-links {
   width: 50%;
   }
+
+
 }
 
 @media screen and (max-width: 768px){
@@ -112,6 +114,58 @@ nav {
    .vanta-birds .title-under-vanta {
     display: block;
   } */
+
+  h1 {
+    font-size: 3em!important;
+  }
+
+  h2{
+    font-size: 2em!important;
+  }
+
+  /*PORTFO*/
+
+
+  /*EXPRESSO*/
+
+  .expresso-mid {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
+
+  div.expresso-mid .row1 {
+  height: 100%;
+  width: 100%;
+ }
+
+ div.expresso-mid .row2 {
+  height: 100%;
+  width: 100%;
+
+ }
+
+ div.process-1 {
+  height: 100%;
+  width: 100%;
+}
+
+img.expressoimg {
+  height: 70%;
+  width: 70%;
+}
+
+/*ADOBE XD */
+img.airximg {
+  height: 34%;
+  width: 34%;
+}
+
+img.moviewatchimg {
+  height: 64%;
+  width: 64%;
+}
+
 }
 
 .nav-active {
@@ -383,8 +437,8 @@ hr {
 .port-top {
   background-color: #fcdada;
   /*position: relative;*/
-  padding-top: 1px;
-  padding-bottom: 10px;
+  padding-top: 1%;
+  padding-bottom: 4%;
 }
 
 /*.home {
@@ -427,6 +481,7 @@ hr {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+  flex-flow: wrap;
 }
 
 .expresso-mid .row1 {
@@ -444,23 +499,33 @@ hr {
 
 
 .expresso-mid-row {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  margin-bottom: 100px;
+  
 }
 
 .expresso-mid-row .row3 {
-  flex-direction: column;
-  height: 30%;
-  width: 30%;
-
+ display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-flow: wrap;
+  margin-bottom: 4%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
-.expresso-mid-row .row4 {
+
+.process-1 {
   flex-direction: column;
   height: 30%;
   width: 30%;
+}
 
+.expresso-mid-row .row4 {
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+.expressoimg {
+  height: 26%;
+  width: 26%;
 }
 
   .construction-img {
@@ -479,14 +544,20 @@ hr {
 
 /*ADOBE XD*/
 
+
+
 .xd-wrap {
-  margin-top: 4%;
+  margin-top: 5%;
 }
 
 .xd-blurb {
   margin-left: 14%;
   margin-right: 14%;
 
+}
+
+.xd-col1 {
+  margin-bottom: 5%;
 }
 
 .airximg {
@@ -511,7 +582,10 @@ width: 18%;
 
 
 .contact-me-2 {
-  padding-bottom: 5%;
+  padding-bottom: 6%;
+  padding-top: 6%;
+  margin-bottom: 6%;
+  margin-top: 6%;
 }
 
 
