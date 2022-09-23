@@ -601,6 +601,35 @@ width: 18%;
 }
 
 
+/* CSSA WEB */
+
+#cssa-link:hover {
+  color: blue;
+}
+.cssa-subhead {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.cssa-subhead ul li {
+  text-align: left;
+}
+
+#cssa-figma-img {
+  height: 70%;
+  width: 70%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#cssa-files-img {
+  height: 50%;
+  width: 50%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+
 
 
 
