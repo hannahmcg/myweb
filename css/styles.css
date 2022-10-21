@@ -20,19 +20,22 @@ body {
 
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
   align-items: center;  
   min-height: 8vh;
-  background-color: #3d7ea6;
+  background-color: white;
   font-family: 'Montserrat', sans-serif;
   z-index: 1;
 }
 
 .logo {
-  color: white;
+  color: black;
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 20px;
+  padding-top: 2%;
 }
 
 
@@ -47,11 +50,15 @@ nav {
 }
 
 .nav-links a{
-  color: white;
+  color: black;
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: bold;
   font-size: 14px;
+}
+
+.nav-links a:hover {
+  color: blue;
 }
 
 .burger {
@@ -62,7 +69,7 @@ nav {
 .burger div{
   width: 25px;
   height: 3px;
-  background-color: white;
+  background-color: black;
   margin: 5px;
   transition: all 0.3s ease;
 } 
@@ -91,7 +98,7 @@ nav {
   /*height: 92vh;*/
   height: 70vh;
   top: 8vh;
-  background-color: #3d7ea6;
+  /*background-color: #3d7ea6;*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -126,6 +133,8 @@ nav {
   h3 {
     font-size: 1.1em!important;
   }
+
+
 
   /*PORTFO*/
 
@@ -212,14 +221,16 @@ h1 {
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
   font-family: 'Bowlby One', cursive;
-  color: #3d7ea6;
+ /* color: #3d7ea6;*/
+ color: black;
 }
 
 h2 {
   font-weight: normal;
   font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
-  color: #3d7ea6;
+  /*color: #3d7ea6;*/
+  color: black;
   /*padding-bottom: 10px;*/
 }
 
@@ -229,14 +240,15 @@ h3 {
 }
 
 a {
-  color: #ffa5a5;
+  /*color: #ffa5a5;*/
+  color: black;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
 }
 
 a:hover {
-  color: white;
+  color: blue;
 }
 
 p {
@@ -311,15 +323,49 @@ hr {
 
 
 .top-container {
-  background-color: #fcdada;
+  background-color: white;
   /*position: relative;*/
-  padding-top: 100px;
+  /*padding-top: 100px;*/
+  padding-top: 5%;
   padding-bottom: 100px;
+  /*background-size: 40px 40px;
+  background-image:
+  linear-gradient(to right, #A8A8A8 0.3px, transparent 0.3px),
+  linear-gradient(to bottom, #A8A8A8 0.3px, transparent 0.3px);*/
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-flow: wrap;
 }
+
+.top-container-1 {
+  flex-direction: column;
+  width: 40%;
+  padding-left: 5%;
+
+}
+.top-container-2 {
+  flex-direction: column;
+  width: 40%;
+}
+
+.top-container h1 {
+  color: black;
+  font-size: 4em;
+}
+
+.top-container h2 {
+  color: black;
+  font-size: 2em;
+}
+
 
 .middle-container {
   margin: 100px 0;
+  /*background-size: 40px 40px;
+  background-image: radial-gradient(circle, #000000 1px, rgba(0, 0, 0, 0) 1px);*/
 }
+
 
 /*  .bottom-container {
   background-color: #3d7ea6;
@@ -345,10 +391,14 @@ hr {
   bottom: 0;
   width: 100%;
   height: auto;
-  background-color: #3d7ea6;
-  padding-top: 6%;
+  /*background-color: black;*/
+  padding-top: 2%;
   padding-bottom: 2%;
+}
 
+.bottom-container-line {
+  border-top: 1px solid black;
+  width: 90%;
 }
 
 
@@ -365,7 +415,7 @@ hr {
 }
 
 .copyright {
-  color: white;
+  color: black;
   font-size: 0.75rem;
   padding: 20px 0;
 }
@@ -444,7 +494,7 @@ hr {
 }
 
 .port-top {
-  background-color: #fcdada;
+  /*background-color: #fcdada;*/
   /*position: relative;*/
   padding-top: 1%;
   padding-bottom: 4%;
@@ -655,6 +705,9 @@ width: 18%;
   padding-top: 2%;
   padding-bottom: 4%;
 }
+
+
+
 
 
 
