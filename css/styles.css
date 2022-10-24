@@ -679,6 +679,18 @@ width: 18%;
   margin-bottom: 2%;
 }
 
+/* MCG PAINTING WEB*/
+
+.mcgpaint-subhead {
+  padding-left: 20%; 
+  padding-right: 20%;
+
+}
+
+.mcgpaint-subhead li {
+  text-align: left;
+}
+
 
 
 
