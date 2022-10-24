@@ -444,12 +444,13 @@ hr {
 }
 
 .btn {
-   background: #FFA5A5;
-   background-image: -webkit-linear-gradient(top, #FFA5A5, #FB7676);
+   /*background: #FFA5A5;*/
+   background: #7DBAE7;
+   /*background-image: -webkit-linear-gradient(top, #FFA5A5, #FB7676);
    background-image: -moz-linear-gradient(top, #FFA5A5, #FB7676);
    background-image: -ms-linear-gradient(top, #FFA5A5, #FB7676);
    background-image: -o-linear-gradient(top, #FFA5A5, #FB7676);
-   background-image: -webkit-gradient(to bottom, #FFA5A5, #FB7676);
+   background-image: -webkit-gradient(to bottom, #FFA5A5, #FB7676);*/
    -webkit-border-radius: 10px;
    -moz-border-radius: 10px;
    border-radius: 10px;
@@ -458,7 +459,8 @@ hr {
    font-size: 20px;
    font-weight: 100;
    padding: 10px 20px;
-   border: solid #FFA5A5 1px;
+   /*border: solid #FFA5A5 1px;*/
+   border: solid #7DBAE7 1px;
    text-decoration: none;
    display: inline-block;
    cursor: pointer;
@@ -466,13 +468,14 @@ hr {
 }
 
 .btn:hover {
-   border: solid #FFA5A5 1px;
-   background: #F3B9B9;
-   background-image: -webkit-linear-gradient(top, #F3B9B9, #FFA5A5);
+   border: solid #7DBAE7 1px;
+   /*background: #F3B9B9;*/
+   background: #2481C7;
+   /*background-image: -webkit-linear-gradient(top, #F3B9B9, #FFA5A5);
    background-image: -moz-linear-gradient(top, #F3B9B9, #FFA5A5);
    background-image: -ms-linear-gradient(top, #F3B9B9, #FFA5A5);
    background-image: -o-linear-gradient(top, #F3B9B9, #FFA5A5);
-   background-image: -webkit-gradient(to bottom, #F3B9B9, #FFA5A5);
+   background-image: -webkit-gradient(to bottom, #F3B9B9, #FFA5A5);*/
    -webkit-border-radius: 10px;
    -moz-border-radius: 10px;
    border-radius: 10px;
@@ -711,11 +714,15 @@ width: 18%;
 .contact-me-2 {
   margin-bottom: 6%;
   margin-top: 4%;
-  background-color: #FCDADA;
+  background-color: #E7F5FF;
   margin-left: 18%;
   margin-right: 18%;
   padding-top: 2%;
   padding-bottom: 4%;
+}
+
+.contact-me-2 h3 {
+  color: black;
 }
 
 
