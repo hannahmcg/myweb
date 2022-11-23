@@ -32,9 +32,9 @@ export default function Home() {
       </Head>
 
 
-      <main className= "bg-white  dark:bg-slate-900 px-10 md:px-20 lg:px-40">
+      <main className= "bg-white dark:bg-slate-900 px-10 md:px-20 lg:px-40">
         <section className="min-h-screen">
-          <nav className="pt-10 mb-6 flex justify-between dark:text-white">
+          <nav className="pt-10 mb-6 flex justify-between text-slate-900 dark:text-white">
             <h1 className="text-xl font-burtons">HMHMHM</h1>
             <ul className="flex items-center">
               <li>
@@ -49,7 +49,7 @@ export default function Home() {
           <div>
             <div className="text-center p-10">
               <h2 className="text-5xl py-2 text-slate-700 dark:text-slate-300 font-medium md:text-6xl">Hannah McGowan</h2>
-              <h3 className="text-2xl py-2 md:text-3xl dark:text-slate-400">web developer and designer.</h3>
+              <h3 className="text-2xl py-2 md:text-3xl text-slate-900 dark:text-slate-400">web developer and designer.</h3>
               <p className="text-md py-5 leading-8 text-slate-500 dark:text-slate-600 md:text-xl max-w-xl mx-auto">Welcome to my website! I showcase past projects and other artworks. Check it out. </p>
             </div>
             <div className="text-5xl flex justify-center gap-16 py-3 text-slate-300  dark:text-slate-600">
@@ -66,8 +66,8 @@ export default function Home() {
 
         <section>
           <div>
-            <h3 className="text-3xl py-10  dark:text-slate-300">my experience: design & dev</h3>
-            <p className="text-md py-2 leading-8  dark:text-slate-400">The beginning of my journey 
+            <h3 className="text-3xl text-slate-900 py-10  dark:text-slate-300">my experience: design & dev</h3>
+            <p className="text-md py-2 leading-8 text-slate-700 dark:text-slate-400">The beginning of my journey 
             as a developer started in my university, doing projects for various classes and organizations. My most notable project in that time was 
             for the <span className="text-blue-400">Cognitive Science Student Association</span>. I also have experience in UI/UX <span className="text-blue-400">
               designing products</span> with other groups. I started with just learning HTML, CSS, and JS from youtube and have since grown accustomed with 
@@ -77,38 +77,38 @@ export default function Home() {
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg  dark:shadow-blue-500 p-10 rounded-xl my-10">
               {/*<Image src={design} width={100} height={100} className="mx-auto" />*/}
-              <MdOutlineBrush className="mx-auto text-5xl  dark:text-slate-400"/>
-              <h3 className="text-lg font-medium pt-8 pb-2  dark:text-slate-400">innovative designs</h3>
-              <p className="py-2  dark:text-slate-400">create cool designs in a variety of art mediums</p>
+              <MdOutlineBrush className="mx-auto text-5xl text-slate-800 dark:text-slate-400"/>
+              <h3 className="text-lg font-medium pt-8 pb-2 text-slate-900 dark:text-slate-300">innovative designs</h3>
+              <p className="py-2 text-slate-800 dark:text-slate-400">create cool designs in a variety of art mediums</p>
               <h4 className="py-4 text-blue-400">design tags</h4>
-              <p className="text-gray-700  dark:text-slate-400 py-1">Figma, Adobe XD</p>
-              <p className="text-gray-700  dark:text-slate-400 py-1">Illustrator, Photoshop</p>
-              <p className="text-gray-700  dark:text-slate-400 py-1">Autodesk Maya, Blender</p>
+              <p className="text-slate-500  dark:text-slate-400 py-1">Figma, Adobe XD</p>
+              <p className="text-slate-500  dark:text-slate-400 py-1">Illustrator, Photoshop</p>
+              <p className="text-slate-500  dark:text-slate-400 py-1">Autodesk Maya, Blender</p>
             </div>
             <div className="text-center shadow-lg dark:shadow-blue-500 p-10 rounded-xl my-10">
-              <MdWeb className="mx-auto text-5xl dark:text-slate-400"/>
-              <h3 className="text-lg font-medium pt-8 pb-2  dark:text-slate-400">frontend apps</h3>
-              <p className="py-2  dark:text-slate-400">build clean designs using modern platforms with UI/UX lense</p>
+              <MdWeb className="mx-auto text-5xl text-slate-800 dark:text-slate-400"/>
+              <h3 className="text-lg font-medium pt-8 pb-2 text-slate-900 dark:text-slate-300">frontend apps</h3>
+              <p className="py-2 text-slate-800 dark:text-slate-400">build clean designs using modern platforms with UI/UX lense</p>
               <h4 className="py-4 text-blue-400">languages/packages</h4>
-              <p className="text-gray-700  dark:text-slate-400 py-1">Javascript, react.js, next.js</p>
-              <p className="text-gray-700  dark:text-slate-400 py-1">CSS, tailwindcss, material tw</p>
-              <p className="text-gray-700  dark:text-slate-400 py-1">HTML</p>
+              <p className="text-slate-500  dark:text-slate-400 py-1">Javascript, react.js, next.js</p>
+              <p className="text-slate-500  dark:text-slate-400 py-1">CSS, tailwindcss, material tw</p>
+              <p className="text-slate-500  dark:text-slate-400 py-1">HTML</p>
             </div>
             <div className="text-center shadow-lg  dark:shadow-blue-500 p-10 rounded-xl my-10">
-              <RiListSettingsFill className="mx-auto text-5xl dark:text-slate-400"/>
-              <h3 className="text-lg font-medium pt-8 pb-2  dark:text-slate-400">backend dev</h3>
-              <p className="py-2  dark:text-slate-400">build concise and easily legible code and models</p>
+              <RiListSettingsFill className="mx-auto text-5xl text-slate-800 dark:text-slate-400"/>
+              <h3 className="text-lg font-medium pt-8 pb-2 text-slate-900 dark:text-slate-300">backend dev</h3>
+              <p className="py-2 text-slate-800 dark:text-slate-400">build concise and easily legible code and models</p>
               <h4 className="py-4 text-blue-400">languages</h4>
-              <p className="text-gray-700  dark:text-slate-400 py-1">python</p>
-              <p className="text-gray-700  dark:text-slate-400 py-1">java</p>
-              <p className="text-gray-700  dark:text-slate-400 py-1">SQL, pandas</p>
+              <p className="text-slate-500  dark:text-slate-400 py-1">python</p>
+              <p className="text-slate-500  dark:text-slate-400 py-1">java</p>
+              <p className="text-slate-500  dark:text-slate-400 py-1">SQL, pandas</p>
             </div>
           </div>
         </section>
         <section>
           <div>
-             <h3 className="text-3xl py-10  dark:text-slate-400">portfolio: projects & apps </h3>
-             <p className="pt-2 pb-8 leading-8  dark:text-slate-400">This is my portfolio of web projects and prototypes that I've 
+             <h3 className="text-3xl py-10 text-slate-900 dark:text-slate-300">portfolio: projects & apps </h3>
+             <p className="pt-2 pb-8 leading-8 text-slate-700 dark:text-slate-400">This is my portfolio of web projects and prototypes that I've 
               created and/or developed. Feel free to contact me with any further questions about these projects or my experience overall. Click to get started!
             </p>
             <div className="mb-40">
@@ -117,8 +117,8 @@ export default function Home() {
           </div>
 
           <div>
-            <h3 className="text-3xl py-10  dark:text-slate-400">portfolio: design & artwork </h3>
-            <p className="pt-2 pb-8 leading-8  dark:text-slate-400"> This section showcases various personal UI designs and website redesigns that I've made, as well as other artworks.
+            <h3 className="text-3xl py-10 text-slate-900 dark:text-slate-300">portfolio: design & artwork </h3>
+            <p className="pt-2 pb-8 leading-8 text-slate-700 dark:text-slate-400"> This section showcases various personal UI designs and website redesigns that I've made, as well as other artworks.
             </p>
 
             <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">

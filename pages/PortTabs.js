@@ -107,15 +107,15 @@ import {
         }}>
           {data.map(({ value, desc }) => (
             <TabPanel key={value} value={value}>
-              <h1 className="dark:text-slate-400 text-center text-2xl pt-10">{desc}</h1>
+              <h1 className="text-slate-800 dark:text-slate-400 text-center text-2xl pt-10">{desc}</h1>
             </TabPanel>
           ))}
           {data.map(({ value, image, link, linktitle, tools, goal, note, title }) => (
          
             <TabPanel key={value} value={value}>
               <div className="text-center font-bold shadow-lg  dark:shadow-blue-500 p-10 rounded-xl md:flex lg:flex">
-                <div className="md:w-1/2 lg:w-1/2 mx-auto pr-8 py-10 dark:text-slate-400">
-                  <h2 className="pb-5">{title}</h2>
+                <div className="md:w-1/2 lg:w-1/2 mx-auto pr-8 py-10 text-slate-800 dark:text-slate-400">
+                  <h2 className="pb-5 dark:text-slate-300">{title}</h2>
                   <p className="font-normal pb-3">tools: {tools}</p> 
                   <p className="font-light pr-8 pl-8 pb-5">goal: {goal}</p>
                   <a href={link} className="underline font-medium" target="_blank">{linktitle}</a>
