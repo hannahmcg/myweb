@@ -6,7 +6,7 @@ import {MdWeb} from 'react-icons/md';
 import {MdOutlineBrush} from 'react-icons/md';
 import {RiListSettingsFill} from 'react-icons/ri';
 import Image from 'next/image';
-import kirby from '../public/kirby.png';
+import kirby from '../public/kirbyheadphoneblend.png';
 import web4 from '../public/glossier.png';
 import web2 from '../public/spotifyalbum.png';
 import web3 from '../public/gallery.png';
@@ -138,14 +138,7 @@ export default function Home() {
               <Image src={web4} className="rounded-lg object-cover" 
               width={'100%'} height={'100%'} layout="responsive"/>
             </div>
-            <div className="basis-1/3 flex-1">
-              <Image src={web5} className="rounded-lg object-cover" 
-              width={'100%'} height={'100%'} layout="responsive"/>
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image src={web6} className="rounded-lg object-cover" 
-              width={'100%'} height={'100%'} layout="responsive"/>
-            </div>
+            
           </div>
 
 
