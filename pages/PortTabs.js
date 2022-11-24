@@ -114,10 +114,10 @@ import {
          
             <TabPanel key={value} value={value}>
               <div className="text-center font-bold shadow-lg  dark:shadow-blue-500 p-10 rounded-xl md:flex lg:flex">
-                <div className="md:w-1/2 lg:w-1/2 mx-auto pr-8 py-10 text-slate-800 dark:text-slate-400">
+                <div className="md:w-1/2 lg:w-1/2 mx-auto lg:pr-8 py-10 text-slate-800 dark:text-slate-400">
                   <h2 className="pb-5 dark:text-slate-300">{title}</h2>
                   <p className="font-normal pb-3">tools: {tools}</p> 
-                  <p className="font-light pr-8 pl-8 pb-5">goal: {goal}</p>
+                  <p className="font-light sm:px-1 lg:px-8 pb-5">goal: {goal}</p>
                   <a href={link} className="underline font-medium" target="_blank">{linktitle}</a>
                 </div>
                 <div className="md:w-1/2 lg:w-1/2">

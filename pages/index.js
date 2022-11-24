@@ -35,7 +35,7 @@ export default function Home() {
       <main className= "bg-white dark:bg-slate-900 px-10 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="pt-10 mb-6 flex justify-between text-slate-900 dark:text-white">
-            <h1 className="text-xl font-burtons">HMHMHM</h1>
+            <h1 className="text-xl font-burtons">HM:H+M</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill 
@@ -45,11 +45,11 @@ export default function Home() {
               <li><a href="/resume.pdf" target="_blank" className="bg-gradient-to-r from-cyan-900 to-blue-400 text-white px-4 py-2 rounded-md ml-8">Resume</a></li>
             </ul>
           </nav>
-        <div className=" lg:flex place-items-center" >
-          <div>
+        <div className=" lg:flex place-items-center mt-10" >
+          <div classname="w-1/2">
             <div className="text-center p-10">
               <h2 className="text-5xl py-2 text-slate-700 dark:text-slate-300 font-medium md:text-6xl">Hannah McGowan</h2>
-              <h3 className="text-2xl py-2 md:text-3xl text-slate-900 dark:text-slate-400">web developer and designer.</h3>
+              <h3 className="text-2xl py-2 md:text-3xl text-slate-900 dark:text-slate-400">front-end/web developer and designer.</h3>
               <p className="text-md py-5 leading-8 text-slate-500 dark:text-slate-600 md:text-xl max-w-xl mx-auto">Welcome to my website! I showcase past projects and other artworks. Check it out. </p>
             </div>
             <div className="text-5xl flex justify-center gap-16 py-3 text-slate-300  dark:text-slate-600">
@@ -58,7 +58,7 @@ export default function Home() {
               <a href="mailto:hannahcmcg@berkeley.edu"> <AiOutlineMail /> </a>
             </div>
           </div>
-          <div className="relative mx-auto bg-gradient-to-b rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
+          <div className="relative mx-auto bg-gradient-to-b rounded-full w-1/2 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
             <Image src={kirby} layout="fill" objectFit="cover" />
           </div>
         </div>
@@ -74,8 +74,8 @@ export default function Home() {
               react, next, tailwind, material tailwind, and continue to look out for the best methods of development. 
             </p>
           </div>
-          <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg  dark:shadow-blue-500 p-10 rounded-xl my-10">
+          <div className="lg:flex gap-10 items-center">
+            <div className="xl:w-1/3 text-center shadow-lg  dark:shadow-blue-500 p-10 rounded-xl my-10">
               {/*<Image src={design} width={100} height={100} className="mx-auto" />*/}
               <MdOutlineBrush className="mx-auto text-5xl text-slate-800 dark:text-slate-400"/>
               <h3 className="text-lg font-medium pt-8 pb-2 text-slate-900 dark:text-slate-300">innovative designs</h3>
@@ -85,7 +85,7 @@ export default function Home() {
               <p className="text-slate-500  dark:text-slate-400 py-1">Illustrator, Photoshop</p>
               <p className="text-slate-500  dark:text-slate-400 py-1">Autodesk Maya, Blender</p>
             </div>
-            <div className="text-center shadow-lg dark:shadow-blue-500 p-10 rounded-xl my-10">
+            <div className="xl:w-1/3 text-center shadow-lg dark:shadow-blue-500 p-10 rounded-xl my-10">
               <MdWeb className="mx-auto text-5xl text-slate-800 dark:text-slate-400"/>
               <h3 className="text-lg font-medium pt-8 pb-2 text-slate-900 dark:text-slate-300">frontend apps</h3>
               <p className="py-2 text-slate-800 dark:text-slate-400">build clean designs using modern platforms with UI/UX lense</p>
@@ -94,7 +94,7 @@ export default function Home() {
               <p className="text-slate-500  dark:text-slate-400 py-1">CSS, tailwindcss, material tw</p>
               <p className="text-slate-500  dark:text-slate-400 py-1">HTML</p>
             </div>
-            <div className="text-center shadow-lg  dark:shadow-blue-500 p-10 rounded-xl my-10">
+            <div className="xl:w-1/3 text-center shadow-lg  dark:shadow-blue-500 p-10 rounded-xl my-10">
               <RiListSettingsFill className="mx-auto text-5xl text-slate-800 dark:text-slate-400"/>
               <h3 className="text-lg font-medium pt-8 pb-2 text-slate-900 dark:text-slate-300">backend dev</h3>
               <p className="py-2 text-slate-800 dark:text-slate-400">build concise and easily legible code and models</p>
