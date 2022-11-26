@@ -45,21 +45,23 @@ export default function Home() {
               <li><a href="/resume.pdf" target="_blank" className="bg-gradient-to-r from-cyan-900 to-blue-400 text-white px-4 py-2 rounded-md ml-8">Resume</a></li>
             </ul>
           </nav>
-        <div className=" lg:flex place-items-center mt-10" >
-          <div classname="w-1/2">
+        <div className=" lg:flex items-center mt-20" >
+          <div className="lg:w-3/5">
             <div className="text-center p-10">
               <h2 className="text-5xl py-2 text-slate-700 dark:text-slate-300 font-medium md:text-6xl">Hannah McGowan</h2>
               <h3 className="text-2xl py-2 md:text-3xl text-slate-900 dark:text-slate-400">front-end/web developer and designer.</h3>
               <p className="text-md py-5 leading-8 text-slate-500 dark:text-slate-600 md:text-xl max-w-xl mx-auto">Welcome to my website! I showcase past projects and other artworks. Check it out. </p>
             </div>
-            <div className="text-5xl flex justify-center gap-16 py-3 text-slate-300  dark:text-slate-600">
+            <div className="text-5xl flex justify-center gap-16 py-1 text-slate-300  dark:text-slate-600">
               <a href="https://www.linkedin.com/in/hannah-m-74b800120" target="_blank"> <AiFillLinkedin /> </a>
               <a href="https://github.com/hannahmcg" target="_blank">  <AiFillGithub /> </a>
               <a href="mailto:hannahcmcg@berkeley.edu"> <AiOutlineMail /> </a>
             </div>
           </div>
-          <div className="relative mx-auto bg-gradient-to-b rounded-full w-1/2 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
-            <Image src={kirby} layout="fill" objectFit="cover" />
+          <div className="lg:w-2/5">
+            <div className="mx-auto mt-8 relative h-80 w-80 md:h-96 md:w-96">
+              <Image src={kirby} layout="fill" objectFit="cover"/>
+            </div>
           </div>
         </div>
         </section>
@@ -75,7 +77,7 @@ export default function Home() {
             </p>
           </div>
           <div className="lg:flex gap-10 items-center">
-            <div className="xl:w-1/3 text-center shadow-lg  dark:shadow-blue-500 p-10 rounded-xl my-10">
+            <div className="lg:w-1/3 text-center shadow-lg  dark:shadow-blue-500 p-10 rounded-xl my-10">
               {/*<Image src={design} width={100} height={100} className="mx-auto" />*/}
               <MdOutlineBrush className="mx-auto text-5xl text-slate-800 dark:text-slate-400"/>
               <h3 className="text-lg font-medium pt-8 pb-2 text-slate-900 dark:text-slate-300">innovative designs</h3>
@@ -85,7 +87,7 @@ export default function Home() {
               <p className="text-slate-500  dark:text-slate-400 py-1">Illustrator, Photoshop</p>
               <p className="text-slate-500  dark:text-slate-400 py-1">Autodesk Maya, Blender</p>
             </div>
-            <div className="xl:w-1/3 text-center shadow-lg dark:shadow-blue-500 p-10 rounded-xl my-10">
+            <div className="lg:w-1/3 text-center shadow-lg dark:shadow-blue-500 p-10 rounded-xl my-10">
               <MdWeb className="mx-auto text-5xl text-slate-800 dark:text-slate-400"/>
               <h3 className="text-lg font-medium pt-8 pb-2 text-slate-900 dark:text-slate-300">frontend apps</h3>
               <p className="py-2 text-slate-800 dark:text-slate-400">build clean designs using modern platforms with UI/UX lense</p>
