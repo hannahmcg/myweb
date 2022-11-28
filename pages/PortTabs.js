@@ -96,7 +96,7 @@ import {
       <Tabs value="html">
         <TabsHeader className="dark:bg-slate-800">
           {data.map(({ label, value }) => (
-            <Tab key={value} value={value} className="dark:text-slate-400">         
+            <Tab key={value} value={value} className="dark:text-slate-400 text-sm md:text-base lg:text-base">         
               {label}             
             </Tab>
           ))}
@@ -107,7 +107,7 @@ import {
         }}>
           {data.map(({ value, desc }) => (
             <TabPanel key={value} value={value}>
-              <h1 className="text-slate-800 dark:text-slate-400 text-center text-2xl pt-10">{desc}</h1>
+              <h1 className="text-slate-800 dark:text-slate-400 text-center text-lg md:text-2xl lg:text-2xl pt-10">{desc}</h1>
             </TabPanel>
           ))}
           {data.map(({ value, image, link, linktitle, tools, goal, note, title }) => (

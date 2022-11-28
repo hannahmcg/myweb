@@ -14,6 +14,9 @@ module.exports = withMT({
       fontFamily: {
         burtons: "burtons",
       },
+      fontFamily: {
+        pixel: "pixel",
+      },
 
       colors: {
         slate: {

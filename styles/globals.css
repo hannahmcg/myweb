@@ -24,4 +24,10 @@ a {
   src: url('../public/Burtons.otf');
 }
 
+@font-face {
+  font-family: "pixel";
+  src: url('../public/PublicPixel.ttf');
+}
+
+
 

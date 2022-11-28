@@ -35,14 +35,14 @@ export default function Home() {
       <main className= "bg-white dark:bg-slate-900 px-10 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="pt-10 mb-6 flex justify-between text-slate-900 dark:text-white">
-            <h1 className="text-xl font-burtons">HM:H+M</h1>
+            <h1 className="text-xl font-pixel text-cyan-800">HM:H+M</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill 
                 onClick={() => setDarkMode(!darkMode)} 
                 className="cursor-pointer text-2xl"/>
               </li>
-              <li><a href="/resume.pdf" target="_blank" className="bg-gradient-to-r from-cyan-900 to-blue-400 text-white px-4 py-2 rounded-md ml-8">Resume</a></li>
+              <li><a href="/resume.pdf" target="_blank" className="bg-gradient-to-r from-cyan-800 to-blue-400 text-white px-4 py-2 rounded-md ml-8">Resume</a></li>
             </ul>
           </nav>
         <div className=" lg:flex items-center mt-20" >
