@@ -6,7 +6,7 @@ import {MdWeb} from 'react-icons/md';
 import {MdOutlineBrush} from 'react-icons/md';
 import {RiListSettingsFill} from 'react-icons/ri';
 import Image from 'next/image';
-import kirby from '../public/kirbyheadphoneblend.png';
+import kirby from '../public/kirbyheadphoneblend-crop.png';
 import web4 from '../public/glossier.png';
 import web2 from '../public/spotifyalbum.png';
 import web3 from '../public/gallery.png';
@@ -42,26 +42,27 @@ export default function Home() {
                 onClick={() => setDarkMode(!darkMode)} 
                 className="cursor-pointer text-2xl"/>
               </li>
-              <li><a href="/resume.pdf" target="_blank" className="bg-gradient-to-r from-cyan-800 to-blue-400 text-white px-4 py-2 rounded-md ml-8">Resume</a></li>
+              <li><a href="/HannahMcGowan_Resume.pdf" target="_blank" className="bg-gradient-to-r from-cyan-800 to-blue-400 text-white px-4 py-2 rounded-md ml-8">Resume</a></li>
             </ul>
           </nav>
         <div className=" lg:flex items-center mt-20" >
-          <div className="lg:w-3/5">
+          <div className="lg:w-3/5 items-center">
             <div className="text-center p-10">
               <h2 className="text-5xl py-2 text-slate-700 dark:text-slate-300 font-medium md:text-6xl">Hannah McGowan</h2>
               <h3 className="text-2xl py-2 md:text-3xl text-slate-900 dark:text-slate-400">front-end/web developer and designer.</h3>
-              <p className="text-md py-5 leading-8 text-slate-500 dark:text-slate-600 md:text-xl max-w-xl mx-auto">Welcome to my website! I showcase past projects and other artworks. Check it out. </p>
+              <p className="text-md py-5 leading-8 text-slate-500 dark:text-slate-600 md:text-lg max-w-xl mx-auto">Welcome to my website! I'm an aspiring frontend and/or fullstack developer with an emphasis on encapsulating UI/UX design. This is my showcase of past projects and other artworks. Check it out. </p>
             </div>
             <div className="text-5xl flex justify-center gap-16 py-1 text-slate-300  dark:text-slate-600">
               <a href="https://www.linkedin.com/in/hannah-m-74b800120" target="_blank"> <AiFillLinkedin /> </a>
               <a href="https://github.com/hannahmcg" target="_blank">  <AiFillGithub /> </a>
               <a href="mailto:hannahcmcg@berkeley.edu"> <AiOutlineMail /> </a>
-            </div>
+            </div> 
           </div>
-          <div className="lg:w-2/5">
-            <div className="mx-auto mt-8 relative h-80 w-80 md:h-96 md:w-96">
+          <div className="lg:w-2/5 text-center">
+            <div className="mx-auto mt-8 relative h-80 w-80 md:h-90 md:w-90">
               <Image src={kirby} layout="fill" objectFit="cover"/>
             </div>
+            <p className="mb-20 text-sm text-slate-500 p-5 mx-5">I like trying out new art styles. This is headphones kirby (made in blender).</p>
           </div>
         </div>
         </section>

@@ -7,6 +7,7 @@ import {
   } from "@material-tailwind/react";
   import Image from 'next/image';
   import cssaimg from '../public/cssa.png';
+  import discoverspotifyimg from '../public/discover-spotify.png';
   import lyricalimg from '../public/lyrical.png';
   import mcgpaintingimg from '../public/mcgpainting.png';
   import expressoimg from '../public/expresso.png';
@@ -26,6 +27,18 @@ import {
         linktitle: "link to website",
         tools: "HTML, CSS, Javascript, Github",
         goal: "create new website for CSSA that encapsulates modern design and easily accessible information. I also changed publishing from filezilla to github to make future changes easier for incoming tech positions.",
+      },
+
+      {
+        label: "Discover-Spotify",
+        value: "discoverspotify",
+        desc: "design and implmenetation of NextJS web app using Spotify API",
+        title: "Discover Spotify App",
+        image: discoverspotifyimg,
+        link: "https://discoverspotify.vercel.app/login",
+        linktitle: "link to website",
+        tools: "NextJS, NextAuth, tailwindcss, Recoil",
+        goal: "create web app that uses Spotify API and authentication to generate novel playlists based on a user's listening history",
       },
 
       {
@@ -94,10 +107,10 @@ import {
    
     return (
       <Tabs value="html">
-        <TabsHeader className="dark:bg-slate-800">
+        <TabsHeader className="dark:bg-slate-800 flex flex-col md:flex-row">
           {data.map(({ label, value }) => (
-            <Tab key={value} value={value} className="dark:text-slate-400 text-sm md:text-base lg:text-base">         
-              {label}             
+            <Tab key={value} value={value} className="dark:text-slate-400 hover:text-blue-400 dark:hover:text-blue-400 text-sm text-clip md:text-base lg:text-base">         
+              {label}            
             </Tab>
           ))}
         </TabsHeader>
@@ -114,7 +127,7 @@ import {
          
             <TabPanel key={value} value={value}>
               <div className="text-center font-bold shadow-lg  dark:shadow-blue-500 p-10 rounded-xl md:flex lg:flex">
-                <div className="md:w-1/2 lg:w-1/2 mx-auto lg:pr-8 py-10 text-slate-800 dark:text-slate-400">
+                <div className="md:w-1/2 lg:w-1/2 mx-auto lg:pr-8 md:py-10 text-slate-800 dark:text-slate-400">
                   <h2 className="pb-5 dark:text-slate-300">{title}</h2>
                   <p className="font-normal pb-3">tools: {tools}</p> 
                   <p className="font-light sm:px-1 lg:px-8 pb-5">goal: {goal}</p>
