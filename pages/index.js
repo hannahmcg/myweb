@@ -13,8 +13,8 @@ import stardrawing from '../public/stardrawing.png';
 import {useState} from 'react';
 import PortTabs from '../components/PortTabs.js';
 import Link from 'next/link';
-import stickers0 from '../public/index-stickers0.png';
-import stickers00 from '../public/index-stickers00.png';
+import stickers1 from '../public/index-stickers1.png';
+import stickers11 from '../public/index-stickers11.png';
 import NavMain from '../components/Nav.js';
 
 
@@ -41,8 +41,8 @@ export default function Home() {
           </ul>
         </nav> */}
         <section className="mb-10">
-            <Image src={stickers0} className="hidden lg:block w-full h-auto" sizes="100vw" width="0" height="0" alt="fruit stickers with my info in them"/>
-            <Image src={stickers00} className="lg:hidden w-full h-auto" sizes="100vw" width="0" height="0" alt="fruit stickers with my info in them"/>
+            <Image src={stickers1} className="hidden lg:block w-full h-auto" sizes="100vw" width="0" height="0" alt="fruit stickers with my info in them"/>
+            <Image src={stickers11} className="lg:hidden w-full h-auto" sizes="100vw" width="0" height="0" alt="fruit stickers with my info in them"/>
         </section>
 
         {/*}
