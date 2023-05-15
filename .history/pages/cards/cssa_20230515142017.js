@@ -24,7 +24,7 @@ function Cssa() {
           <main className="px-5 md:px-20 lg:px-40 pb-20">
               <section className="items-center text-center md:min-h-screen pb-10 md:pb-0">
                 <div className="pt-5 pb-10">
-                    <Image src={cssacomputer} className="mx-auto" width={650} height={650} alt="example UI of cssa website"/>
+                    <Image src={cssacomputer} className="mx-auto" width={650} height={650} alt="example UI of compass app"/>
                 </div>
                 <div className="px-2 py-2">
                     <h1 className="font-semibold text-xl md:text-4xl text-slate-900">Berkeley Cogsci Student Association Website Rebuild</h1>

@@ -21,7 +21,7 @@ function Mcgpaint() {
           <main className="px-10 md:px-20 lg:px-40 pb-20">
               <section className="items-center text-center md:min-h-screen pb-10 md:pb-0">
                 <div className="pt-5 pb-10">
-                    <Image src={mcgpaintcomputer} className="mx-auto" width={650} height={650} alt="example UI of mcgowan painting website"/>
+                    <Image src={mcgpaintcomputer} className="mx-auto" width={650} height={650} alt="example UI of compass app"/>
                 </div>
                 <div className="px-2 py-4">
                     <h1 className="font-semibold text-xl md:text-4xl text-slate-900">McGowan Painting Commissioned Website Build</h1>
