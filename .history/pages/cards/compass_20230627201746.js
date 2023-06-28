@@ -76,7 +76,7 @@ function Compass() {
                             added interest in <span className="text-light-blue-600 font-semibold">product design</span> and UI design. 
                             I was looking to broaden my understanding of overall web architecture, in addition to getting familiar with the best approaches and methods to take for designing a product. 
                             I've gotten the added benefit of learning from and working with some incredibly talented people, and 
-                            I couldn't be more grateful to this project for giving me the space to make meaningful contributions and grow through creating! :D
+                            I couldn't be more grateful to this project for giving me the space to make meaningful contributions and grow through creating :D
                             </p>
                         </div>
                     </div>

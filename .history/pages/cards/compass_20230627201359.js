@@ -74,9 +74,10 @@ function Compass() {
                             <p className="font-semibold text-slate-900 pb-1">How am I involved?</p>
                             <p>I joined the project as a <span className="text-light-blue-600 font-semibold">full stack engineer</span> with an 
                             added interest in <span className="text-light-blue-600 font-semibold">product design</span> and UI design. 
-                            I was looking to broaden my understanding of overall web architecture, in addition to getting familiar with the best approaches and methods to take for designing a product. 
+                            I was looking to broaden my understanding of overall web architecture, as well as knowing the best approaches 
+                            and methods to take for a desired product. 
                             I've gotten the added benefit of learning from and working with some incredibly talented people, and 
-                            I couldn't be more grateful to this project for giving me the space to make meaningful contributions and grow through creating! :D
+                            I couldn't be more grateful to this project for giving me the space to make meaningful contributions and grow through creating :D
                             </p>
                         </div>
                     </div>
