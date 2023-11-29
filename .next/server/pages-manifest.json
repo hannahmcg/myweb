@@ -2,6 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/gallery": "pages/gallery.js",
   "/work": "pages/work.js",
-  "/cards/dispotify": "pages/cards/dispotify.js"
+  "/": "pages/index.js",
+  "/cards/compass": "pages/cards/compass.js",
+  "/about": "pages/about.js"
 }
