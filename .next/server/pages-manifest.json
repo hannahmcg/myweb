@@ -3,6 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/work": "pages/work.js",
-  "/": "pages/index.js",
-  "/cards/compass": "pages/cards/compass.js"
+  "/cards/dispotify": "pages/cards/dispotify.js"
 }
