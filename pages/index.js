@@ -1,9 +1,6 @@
 import Head from 'next/head';
-import {BsFillMoonStarsFill} from 'react-icons/bs';
-import {AiFillLinkedin, AiFillGithub, AiOutlineMail}  from 'react-icons/ai';
 import Image from 'next/image';
 import kirby from '../public/kirbyheadphoneblend-crop.png';
-import stardrawing from '../public/stardrawing.png';
 import {useState} from 'react';
 import PortTabs from '../components/PortTabs.js';
 import Link from 'next/link';
