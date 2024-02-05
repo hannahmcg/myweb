@@ -3,7 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/work": "pages/work.js",
-  "/cards/cssa": "pages/cards/cssa.js",
-  "/cards/compass": "pages/cards/compass.js"
+  "/work": "pages/work.js"
 }

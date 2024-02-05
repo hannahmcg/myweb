@@ -6,6 +6,7 @@ import PortTabs from '../components/PortTabs.js';
 import Link from 'next/link';
 import stickers1 from '../public/index-stickers1.png';
 import stickerstext from '../public/index-stickers-text.png';
+import stickerstextM from '../public/index-stickers-textM.png';
 import stickers11 from '../public/index-stickers11.png';
 import NavMain from '../components/Nav.js';
 
@@ -37,7 +38,7 @@ export default function Home() {
           <div className="flex justify-center">
             {/*<Image src={stickerstext} className="hidden lg:block" width={1200} height={1200} priority={true} alt="fruit stickers with my info in them"/>*/}
             <Image src={stickerstext} className="hidden lg:block w-full h-auto" sizes="100vw" width="0" height="0" priority={true} alt="fruit stickers with my info in them"/>
-            <Image src={stickers11} className="lg:hidden w-full h-auto" sizes="100vw" width="0" height="0" priority={true} alt="fruit stickers with my info in them"/>
+            <Image src={stickerstextM} className="lg:hidden w-full h-auto" sizes="100vw" width="0" height="0" priority={true} alt="fruit stickers with my info in them"/>
           </div>
         </section>
 
