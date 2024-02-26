@@ -145,25 +145,13 @@ function Compass() {
                     </div>
                     <div id="5" className="md:pl-10 pt-10 pb-20">
                         <h2 className="text-2xl text-light-blue-800">THOUGHTS</h2>
-                        <p className="font-semibold mt-10">I've learned a lot. Here are some of the main things so far:</p>
+                        <p className="font-semibold mt-10">I've worked with a lot of new tools and concepts, such as:</p>
                         <ul className="list-disc text-slate-600 font-light pl-3">
-                            <li>Schema setup. Haven’t needed to set up a schema of this scale before - very useful stuff </li>
-                            <li>Typescript. This has given me a great opportunity to learn typescript since we decided to use it for this project.</li>
-                            <li>Product design (from a professional large clientelle perspective)
-                                <ul className="list-disc pl-4">
-                                    <li>i.e. Really thinking about who we are making this for and how/if it's going to help them</li>
-                                </ul>
-                            </li>
-                            <li>The importance of understanding and finalizing a user's workflow of the product -
-                                it's imperative to having a structured mindset for both designing and engineering 
-                                <ul className="list-disc pl-4">
-                                    <li>This ties into making sure of scheduling user interviews throughout the build process to gain continuous insight and 
-                                        ensure that the product is going in the right direction
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>Backend integration and trpc (still trying to understand the depths of how everything works but I never thought 
-                                I would've known it at all - just another win in my book) </li>
+                            <li>Setting up schema</li>
+                            <li>Typescript</li>
+                            <li>Security and privacy considerations</li>
+                            <li>Design handoffs between UX teams and engineering teams</li>
+                            <li>Using Github projects and issues for organization</li>
                         </ul>
                     </div>
                 </div>
