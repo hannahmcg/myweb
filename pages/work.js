@@ -77,7 +77,7 @@ function Work() {
                             </div>
                             <div className="p-5 mt-4">
                                 <h3 className="text-lg font-bold text-slate-900 dark:text-slate-300">DISCOVER SPOTIFY</h3>
-                                <p className="py-1 text-slate-800 dark:text-slate-400 text-sm">Conceptualize + Create for an Idea</p>
+                                <p className="py-1 text-slate-800 dark:text-slate-400 text-sm">Conceptualize + Develop for an Idea</p>
                                 {/*<p className="text-slate-500  dark:text-slate-400 py-1">Complete website rebuild for Berkeley CSSA.</p>*/}
                             </div>
                         </div>
