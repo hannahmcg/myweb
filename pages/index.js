@@ -19,8 +19,8 @@ export default function Home() {
         <section className="px-5 md:px-8 lg:px-10 pt-20 md:pt-5">
 
           <div className="pt-20 min-h-screen bg-blue-gray-100 my-4 mt-4 mb-20">
-            <h1 className="text-9xl pl-4">HANNAH MCG</h1>
-            <div className="pl-6">
+            <h1 className="text-6xl md:text-9xl pl-4">HANNAH MCG</h1>
+            <div className="pl-5 md:pl-6">
               <h3>PORTFOLIO</h3>
               <h3>DIGITAL DESIGN</h3>
               <h3>DEVELOPMENT</h3>
@@ -28,7 +28,7 @@ export default function Home() {
           </div>
 
           <div className="">
-              <div className="flex items-center justify-center min-h-screen bg-index-bg h-[500px] bg-contain">
+              <div className="flex items-center justify-center min-h-screen bg-index-bg bg-contain">
                 <div className="text-center"> 
                   <h3 className="font-barcode font-medium text-3xl">HANNAH MCG</h3>
 
