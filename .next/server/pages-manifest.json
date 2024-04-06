@@ -1,6 +1,8 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/cards/hopsandbeans": "pages/cards/hopsandbeans.js"
+  "/_error": "pages/_error.js",
+  "/work": "pages/work.js",
+  "/cards/hopsandbeans": "pages/cards/hopsandbeans.js",
+  "/about": "pages/about.js"
 }
