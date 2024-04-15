@@ -34,7 +34,7 @@ export default function Home() {
         </div>
         <section>
           <div>
-            <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+            <div className="flex flex-col gap-10 py-5 md:py-10 lg:flex-row lg:flex-wrap">
               <div className="basis-1/3 flex-1">
                 <Image src={web1} className="rounded-sm object-cover" 
                 width={'100%'} height={'100%'} responsive="true" alt="koss web redesign"/>

@@ -57,7 +57,7 @@ function About() {
                 </div>
             </div>
           */}
-        <div className="pb-20 pt-10">
+        <div className="pb-10 md:pb-20 pt-5 md:pt-10">
           <div className="flex justify-center space-x-10 pb-10">
             <div className="md:w-[800px] md:flex text-left">
             <div className="md:w-1/2 w-[200px] mx-auto pb-10 md:pb-0 pl-2">
@@ -104,7 +104,7 @@ function About() {
           </div>
 
             <div>
-              <div className="text-5xl mx-auto flex justify-center gap-16 py-1 text-slate-300  dark:text-slate-600">
+              <div className="text-5xl mx-auto flex justify-center gap-8 md:gap-16 md:py-1 text-slate-300  dark:text-slate-600">
                 <a href="HannahMcGowan_Resume.pdf" target="_blank"> <HiOutlineDocumentText /> </a>
                 <a href="https://www.linkedin.com/in/hannah-m-74b800120" target="_blank"> <AiFillLinkedin /> </a>
                 <a href="https://github.com/hannahmcg" target="_blank">  <AiFillGithub /> </a>
@@ -116,7 +116,7 @@ function About() {
               <iframe className="rounded-xl mx-auto" src="https://open.spotify.com/embed/playlist/613PD49YymDxtoW5FMMa4a?utm_source=generator" width="90%" height="352" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             </div> */}
             <div className="py-20">
-              <iframe className="mx-auto w-1/2" src="https://open.spotify.com/embed/playlist/1mjNwAz0hRh8u1Dkga1xOY?utm_source=generator&theme=0" width="80%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+              <iframe className="mx-auto md:w-1/2" src="https://open.spotify.com/embed/playlist/1mjNwAz0hRh8u1Dkga1xOY?utm_source=generator&theme=0" width="80%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             </div>
             
         </main>

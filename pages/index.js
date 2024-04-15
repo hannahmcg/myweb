@@ -20,9 +20,9 @@ export default function Home() {
         <section className="px-5 md:px-8 lg:px-10 pt-20 md:pt-5">
 
           {/* bg-blue-gray-100 */}
-          <div className="md:pt-20 min-h-screen bg-feet-bg bg-contain bg-no-repeat bg-center md:bg-right-bottom mt-4">
+          <div className="md:pt-20 min-h-screen bg-feet-bg bg-contain bg-no-repeat bg-center md:bg-right-bottom md:mt-4">
             <h1 className="text-6xl md:text-9xl text-slate-900 mix-blend-color-burn">HANNAH MCG</h1>
-            <div className="pl-5 md:pl-2 text-slate-900 text-lg">
+            <div className="pl-1 md:pl-2 text-slate-900 text-lg">
               <h3>DIGITAL PORTFOLIO</h3>
               <h3>DESIGN + DEVELOPMENT</h3>
               <h3></h3>
