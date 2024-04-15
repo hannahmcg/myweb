@@ -2,8 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/gallery": "pages/gallery.js",
-  "/work": "pages/work.js",
-  "/about": "pages/about.js"
+  "/cards/hopsandbeans": "pages/cards/hopsandbeans.js",
+  "/cards/cssa": "pages/cards/cssa.js",
+  "/cards/compass": "pages/cards/compass.js"
 }
